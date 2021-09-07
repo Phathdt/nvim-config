@@ -24,9 +24,11 @@ Plug 'tpope/vim-surround'
 Plug 'airblade/vim-gitgutter'
 Plug 'ntpeters/vim-better-whitespace'
 Plug 'luochen1990/rainbow'
-Plug 'nathanaelkane/vim-indent-guides'
 Plug 'terryma/vim-multiple-cursors'
+Plug 'tpope/vim-endwise'
+Plug 'Yggdroot/indentLine'
 Plug 'neoclide/coc.nvim', {'branch': 'master', 'do': 'yarn install --frozen-lockfile'}
+Plug 'ms-jpq/chadtree', {'branch': 'chad', 'do': 'python3 -m chadtree deps'}
 
 " Plug 'neovim/nvim-lspconfig'
 " Plug 'kabouzeid/nvim-lspinstall'
@@ -44,6 +46,3 @@ Plug 'slashmili/alchemist.vim'
 Plug 'mhinz/vim-mix-format'
 
 call plug#end()
-
-let g:indent_guides_enable_on_vim_startup = 1
-let g:rainbow_active = 1
